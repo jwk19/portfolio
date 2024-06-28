@@ -1,0 +1,139 @@
+h1 {
+    color: brown;
+    text-decoration: underline double;
+}
+h2 {
+    
+    margin: 5px;
+    font-family: "Playfair Display", serif;
+    color: #e70c0c;
+    text-decoration: underline double;
+    background-color: blanchedalmond;
+    width: fit-content;
+}
+.h-align {
+    text-align: center;
+}
+
+body {
+    background-color: azure;
+}
+/*typewriter effect animation*/
+.h-typed {
+    display: inline-block;
+}
+
+.typed-out {
+    overflow: hidden;
+    border-right: .2em solid rgb(35, 140, 189);
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+    typing 2s steps(20, end) forwards;;
+   
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+  }
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.about {
+    background-color: blueviolet;
+    color: antiquewhite;
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+
+
+.abtext {
+    display: flex;
+    background-color: azure;
+    color: blueviolet;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
+}
+
+.abtext-r {
+    color: #e70c0c;
+    border: blueviolet;
+    border-style: groove;
+    border-width: 0.3rem;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.abtext-l {
+    color: blueviolet;
+    border: #e70c0c;
+    border-style: groove;
+    border-width: 0.3rem;
+    border-radius: 20px;
+    padding: 1rem;
+    margin: 10px;
+}
+
+.hobbies {
+    background: fixed;
+    background-color: royalpurple;
+    border: 2rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.hobbies-flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+}
+
+.hobbies-flexcontainer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies-flexcontainer ul li {
+    padding: 1.5rem;
+}
+
+.hobbies-flexcontainer ul li p {
+    width: fit-content;
+    background-color: violet;
+    
+    
+}
+
+.affirmation {
+    box-sizing: border-box;
+    border-style: ridge;
+    border-radius: 3.7rem;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.affirmation-list {
+    list-style: none;
+    
+}
+
+
+
+
+
+

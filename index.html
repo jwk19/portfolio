@@ -5,79 +5,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Website: James Kahwai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
 </head>
 <!-- Start of Body -->
 <body>
-    <h1 style="color: #044ff1;">My Portfolio Website</h1>
 
-    <!-- SECTION ONE -->
-<section>
-    <img src="https://media.licdn.com/dms/image/D4D03AQEdVYPhz8Xz8A/profile-displayphoto-shrink_200_200/0/1680707137899?e=2147483647&v=beta&t=Z2ZxAZ6QP04zJ22J5Iq4XXm2dttRXvlP9DgJrj0F4SM"
-    alt="James Kahwai on Linkedin">
-</section>
+    <!-- HEADER SECTION -->
+     <section>
+        <header>
+            <div>
+                <div>
+                    <h1>Hawayu? I'm James Kahwai. </h1>
     
+                        <p>Welcome aboard my portfolio.</p>
+                        <div class="h-typed"><div class="typed-out">I'm a Software Engineer.</div></div> <br>
+                        <div class="h-typed"><div class="typed-out">SEO Wizard.</div></div> <br>
+                        <div class="h-typed"><div class="typed-out">And ......a Buggy Nerd!</div></div> <br>
+
+
+                    
+                </div>
+                
+            </div>
+            
+            <img src="images/james_kahwai.jpeg" alt="James Kahwai">
+         </header>
+     </section>
+     
     
 <!-- SECTION TWO -->
-<section>
-    <h2 style="color: #e70c0c;">About Me</h2>
-    I'm James Kahwai and I live in Nairobi, Kenya.<br>
-    I'm currently enrolled in Moringa School and learning software development.<br>
-    You can reach me through +254726492249 or email me jameswambugu21@gmail.com.
-
+<section class="about">
+    <div class="h-align">
+        <h2>About Me</h2>
+    </div>
+    <div class="abtext">
+        <div class="abtext-l">
+            <p>
+                I'm James Kahwai and I live in Nairobi, Kenya.<br>
+                I'm currently enrolled in Moringa School and learning software development.<br>
+                You can reach me through +254726492249 or email me jameswambugu21@gmail.com.
+            </p>
+        </div>
+        <div class="abtext-r">
+            <p>
+                I'm a solutions architect with knack for small detail.<br>
+                I'm the founder of the Viralweb Digital agency.<br>
+                Ranking websites organically in SERP gives mme fulfillment.
+            </p>
+        </div>
+    </div>
+    
+    
 </section>
 
 <!-- SECTION THREE -->
-<section>
+<section class="hobbies">
 
-    <h2 style="color: #e70c0c;">Hobbies</h2>
-    <ol>
-        <li>
-             <p>Swimming and Diving</p>
-             <img src="/images/swimmer.jpeg" alt="swimmer">
-        </li>
+    <h2>Hobbies</h2>
+    <div class="hobbies-flexcontainer">
+        <ul>
+            <li>
+                  <img src="/images/swimmer.jpeg" alt="swimmer">
+                  <div>
+                    <p>Swimming and Diving</p>
+                  </div>
+            </li>
+        
+            <li>
+                <img src="images/hiking.jpeg" alt="hiking">
+                <div>
+                    <p>Hiking</p>
+                </div>
+            </li>
+        
+            <li>
+                <img src="images/snooker.jpeg" alt="snooker">
+                <div>
+                    <p>Snooker</p>
+                </div>
+            </li>
+        </ul>
+    </div>
     
-        <li>
-            <p>Hiking</p>
-            <img src="images/hiking.jpeg" alt="hiking">
-        </li>
-    
-        <li>
-            <p>Snooker</p>
-            <img src="images/snooker.jpeg" alt="snooker">
-        </li>
-    
-    </ol>
 </section>
 
 <!-- SECTION FOUR -->
-<section>
+<section class="travel">
 
-    <h2 style="color: #e70c0c;">Travel Diaries</h2>
+    <h2>Travel Diaries</h2>
     <ol>
-        <li><a href="https://visitdiani.com">Mombasa</a>
-            <p>The city of Mombasa and it's environs is a go to destination for me. The beaches in Diani would be my
-                first stop.</p>
-        </li>
-        <li><a href="https://theexpatmummy.com/the-12-best-places-to-visit-in-nanyuki/">Nanyuki</a>
-            <p>The Ol Pejeta Conservancy, Mt Kenya, Ngare Ndare Forest, Loldaiga Caves among others.<br>
-                I know Nanyuki as a gateway to Mount Kenya and the wilderness of Mount Kenya National Park. It sits on
-                the equator, 3 hours north of Nairobi. Its elevation of 2000 metres means it is colder and wetter than
-                the rest of Kenya. Nanyuki is the largest town in the area, settled by British immigrants and still
-                favoured by their descendants. Business in the area comes from ranches, farms, and game parks, or the
-                supply of goods to them. Tourism is huge as there is a lot to see and do in Nanyuki.</p>
-        </li>
-        <li><a href="https://www.africanmeccasafaris.com/travel-guide/kenya/parks-reserves/northern-frontier/wilderness/chalbi-desert">Chalbi Desert</a>
-            <p>When you journey into Chalbi Desert, prepare yourself for an eerie landscape edged by rocky lava flows,
-                cracked earth and a sandy mixture of white salt and clay across which your guide carefully drives
-                through.
-                Even in this barren and desolate location, you may see a shadow emerge in the distance, as ostriches,
-                grevy’s zebras, oryx and other adapted animals are often observed in the desert.
-                Amazingly, spotted hyena have been seen too.</p>
-        </li>
+        <div>
+            <li>
+                <a href="https://visitdiani.com">Mombasa</a>
+                <p>The city of Mombasa and it's environs is a go to destination for me. The beaches in Diani would be my
+                    first stop.</p>
+            </li>
+        </div>
+        
+        <div>
+            <li>
+                <a href="https://theexpatmummy.com/the-12-best-places-to-visit-in-nanyuki/">Nanyuki</a>
+                <p>The Ol Pejeta Conservancy, Mt Kenya, Ngare Ndare Forest, Loldaiga Caves among others.<br>
+                    I know Nanyuki as a gateway to Mount Kenya and the wilderness of Mount Kenya National Park. It sits on
+                    the equator, 3 hours north of Nairobi. Its elevation of 2000 metres means it is colder and wetter than
+                    the rest of Kenya. Nanyuki is the largest town in the area, settled by British immigrants and still
+                    favoured by their descendants. Business in the area comes from ranches, farms, and game parks, or the
+                    supply of goods to them. Tourism is huge as there is a lot to see and do in Nanyuki.</p>
+            </li>
+        </div>
+        <div>
+            <li>
+                <a href="https://www.africanmeccasafaris.com/travel-guide/kenya/parks-reserves/northern-frontier/wilderness/chalbi-desert">Chalbi Desert</a>
+                <p>When you journey into Chalbi Desert, prepare yourself for an eerie landscape edged by rocky lava flows,
+                    cracked earth and a sandy mixture of white salt and clay across which your guide carefully drives
+                    through.
+                    Even in this barren and desolate location, you may see a shadow emerge in the distance, as ostriches,
+                    grevy’s zebras, oryx and other adapted animals are often observed in the desert.
+                    Amazingly, spotted hyena have been seen too.</p>
+            </li>
+        </div>
     </ol>
 </section>
-    
-</div>
+
+<!-- SECTION FIVE AFFIRMATIONS -->
+ <section class="affirmation">
+    <H2> Daily Affirmations</H2>
+    <div class="affirmation-list">
+       <ul>
+           <li>I am fortunate to have all I need to succeed in my life.</li>
+           <li>I am resolved to be happy in life.</li>
+           <li>I am one-of-a-kind and smart.</li>
+       </ul>
+    </div>
+ </section>
+ 
     
 <!-- END OF BODY -->
 </body>
